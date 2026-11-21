@@ -48,3 +48,8 @@ h3{font-size:1.15rem;margin:0 0 .55rem}
 footer{border-top:1px solid var(--line);padding:1.5rem;text-align:center;color:var(--muted);font-size:.9rem}
 @media(max-width:680px){.grid{grid-template-columns:1fr}.nav-wrap{align-items:flex-start}nav{width:100%}nav a{font-size:.84rem;padding:.4rem .5rem}main{padding-top:2rem}}
 @media print{header,footer,.editor-tools,.actions{display:none!important}body{background:white}.card,.hero-panel{box-shadow:none}}
+
+/* Readable, full-length coursework display */
+.essay-content{max-width:100%;padding:clamp(1.2rem,3vw,2rem);font:1.04rem/1.85 Georgia,"Times New Roman",serif;color:#263449}
+.essay-content p{margin:0 0 1.25rem}
+.essay-content p:last-child{margin-bottom:0}
